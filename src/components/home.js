@@ -16,7 +16,7 @@ export default function Homepage() {
     <>
     <Navbar />
     </>
-    <div class="my-10 mx-12 max-w-screen-4xl">
+    <div class="my-12 mx-8 w-auto">
       <div class="flex">
         <div className="grid sm:grid-cols-4 items-center inset-x-0">
           <div className="z-20 col-span-2 items-center justify-center">

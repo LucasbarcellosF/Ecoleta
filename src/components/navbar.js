@@ -27,7 +27,7 @@ export default function Navbar() {
                 </Link>
               </div>
               <div class="hidden sm:ml-6 sm:flex">
-                <a href="/create-point" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
+                <a href="/create-point" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-teal-800 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
                   Cadastre um ponto
                 </a>
                 <a href="/search-results" class="ml-8 inline-flex items-center px-1 pt-1  text-sm font-medium leading-5 text-teal-800 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
