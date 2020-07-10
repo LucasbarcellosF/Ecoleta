@@ -13,11 +13,11 @@ export default function Contact() {
     <div class="mx-6 my-6 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
       <div class="relative max-w-xl mx-auto">
         <div class="text-center">
-          <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Contact sales
+          <h2 class="text-3xl leading-9 font-bold tracking-tight text-teal-900 sm:text-5xl sm:leading-10">
+            Fale Conosco
           </h2>
-          <p class="mt-4 text-lg leading-6 text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          <p class="mt-4 text-lg font-medium leading-6 text-teal-800">
+            Parcerias? Entre em contato com a gente!
           </p>
         </div>
 
@@ -25,42 +25,38 @@ export default function Contact() {
           <form action="#" method="POST" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
 
             <div>
-              <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">First name</label>
+              <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">Nome</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <input id="first_name" class="mt-1 form-input block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
               </div>
             </div>
 
             <div>
-              <label for="last_name" class="block text-sm font-medium leading-5 text-gray-700">Last name</label>
+              <label for="last_name" class="block text-sm font-medium leading-5 text-gray-700">Sobrenome</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <input id="last_name" class="mt-1 form-input block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
               </div>
             </div>
             
             <div class="sm:col-span-2">
-              <label for="company" class="block text-sm font-medium leading-5 text-gray-700">Company</label>
+              <label for="company" class="block text-sm font-medium leading-5 text-gray-700">Empresa</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <input id="company" class="mt-1 form-input block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
               </div>
             </div>
 
             <div class="sm:col-span-2">
-              <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
+              <label for="email" class="block text-sm font-medium leading-5 text-gray-700">E-mail</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <input id="email" type="email" class="mt-1 form-input block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
               </div>
             </div>
 
             <div class="sm:col-span-2">
-              <label for="phone_number" class="block text-sm font-medium leading-5 text-gray-700">Phone Number</label>
+              <label for="phone_number" class="block text-sm font-medium leading-5 text-gray-700">Telefone de contato</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <div class="absolute inset-y-0 left-0 flex items-center">
-                  <select aria-label="Country" class="form-select h-full py-0 pl-4 pr-8 border-transparent bg-transparent text-gray-500 transition ease-in-out duration-150">
-                    <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
-                  </select>
+
                 </div>
                 <input id="phone_number" class="form-input py-3 px-4 block w-full pl-20 transition ease-in-out duration-150" placeholder="+1 (555) 987-6543" />
               </div>
