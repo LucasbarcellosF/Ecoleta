@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import Navbar from './navbar'
 import Footer from './footer'
-import Background from '../img/background.jpg'
+
 
 export default function Homepage() {
 
@@ -16,40 +16,31 @@ export default function Homepage() {
     <>
     <Navbar />
     </>
-    <div class="my-12 mx-8 w-auto">
-      <div class="flex">
-        <div className="grid sm:grid-cols-4 items-center inset-x-0">
-          <div className="z-20 col-span-2 items-center justify-center">
-
-            <div className="grid grid-rows-2 m-auto inset-y-0 items-center">
-
-              <div className="self-start row-span-1 justify-center text-left font-bold text-4xl sm:text-6xl whitespace-normal">
-                <h1 className="text-teal-900">Sua plataforma de coleta seletiva inteligente</h1>
+    <div class="my-20 w-auto">
+      <main class="lg:relative">
+        <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+          <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+            <h2 class="text-4xl tracking-tight font-bold text-teal-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
+              Sua plataforma de coleta seletiva inteligente
+            </h2>
+            <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+              <div class="rounded-md shadow">
+                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                  Encontre um ponto de coleta
+                </a>
               </div>
-
-              <div className="row-span-1 grid mt-4 sm:mt-10 items-center whitespace-normal">
-                <div className="justify-left">
-                  <h3 className="font-medium text-md sm:text-lg text-teal-800">Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</h3>
-                </div>
-
-                <div className="mt-6 justify-start grid">
-                  <button type="button" class="mt-6 inline-flex justify-right px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700 transition ease-in-out duration-150">
-                    Pesquisar um ponto de coleta
-                  </button>
-                </div>
-
+              <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-teal-600 bg-white hover:text-teal-400 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                  Cadastre um ponto de coleta
+                </a>
               </div>
-            </div>
-
-          </div>
-
-          <div className="hidden sm:flex z-0 col-span-2  items-center w-auto h-screen">
-            <div className="justify-center items-center align-center">
-              <img className=" w-full h-max m-auto"src="/assets/home-background.svg" />
             </div>
           </div>
         </div>
-      </div>
+        <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+          <img class="absolute inset-0 w-full h-full object-auto sm:object-contain" src="/assets/home-background.svg" alt="Woman on her phone" />
+        </div>
+      </main>   
     </div>
     <>
     <Footer />

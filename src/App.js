@@ -1,10 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
-import Home from './components/home.js'
 
+import Home from './components/home.js'
 import Results from './components/searchResults.js'
 import CreatePoint from './components/createPoint'
 import About from './components/about'
+import Contact from './components/contact'
+
+
 
 function App() {
   return (
