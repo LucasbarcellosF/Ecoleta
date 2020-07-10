@@ -1,12 +1,19 @@
 import React from 'react'
-import Navbar from './navbar.js'
+import Navbar from './navbar'
+import Footer from './footer'
+
+
 
 export default function SearchResults() {
 
   return (
-    <div id="page-search-results">
-
+    <div>
+    <>
     <Navbar />    
+    </>
+
+    <div >
+
     <main>
       <h4>
         <strong>2 pontos</strong> encontrados
@@ -37,6 +44,10 @@ export default function SearchResults() {
 
       </div>
     </main>
+  </div>
+  <>
+  <Footer />
+  </>
   </div>
   )
 }

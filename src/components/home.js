@@ -24,7 +24,7 @@ export default function Homepage() {
             <div className="grid grid-rows-2 m-auto inset-y-0 items-center">
 
               <div className="self-start row-span-1 justify-center text-left font-bold text-4xl sm:text-6xl whitespace-normal">
-                <h1 className="text-teal-900">Sua plataforma de coleta seletiva inteligênte</h1>
+                <h1 className="text-teal-900">Sua plataforma de coleta seletiva inteligente</h1>
               </div>
 
               <div className="row-span-1 grid mt-4 sm:mt-10 items-center whitespace-normal">
