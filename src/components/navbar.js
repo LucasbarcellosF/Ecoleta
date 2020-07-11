@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
 
-    <div className="bg-gray-100">
-      <nav class="shadow">
+    <div className="bg-gray-100 ">
+      <nav class="shadow-sm border-b">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex justify-between h-16">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">

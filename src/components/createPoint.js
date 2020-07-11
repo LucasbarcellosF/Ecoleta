@@ -10,7 +10,7 @@ export default function CreatePoint() {
     <>
     <Navbar />
     </>
-    <div class="my-12 mx-8 flex">
+    <div class="my-12 mx-8 flex w-auto">
       <form className="m-auto w-auto h-auto">
         <div className="flex justify-center">
           <div className="justify-center">
@@ -19,9 +19,9 @@ export default function CreatePoint() {
           </div>
         </div>
 
-        <fieldset className="bg-gray-100 overflow-hidden my-4 shadow border border-teal-900 rounded-lg p-8">
+        <fieldset className="bg-gray-100 overflow-hidden my-4 shadow border border-teal-500 rounded-lg p-8">
           <legend>
-            <h2 className="font-bold text-2xl text-teal-900">Dados da entidade</h2>
+            <h2 className="font-bold text-2xl text-teal-800">Dados da entidade</h2>
           </legend>
 
           <div class="">
@@ -44,7 +44,7 @@ export default function CreatePoint() {
 
             <div class="row-span-1">
               <label className="font-medium" for="address-state">Estado</label>
-              <select class="mt-1 form-select block w-full pl-3 pr-10 py-2 text-base leading-6 border-gray-300 shadow-sm border rounded-lg hover:rounded-mdfocus:outline-none focus:shadow-outline-teal focus:border-teal-300 sm:text-sm sm:leading-5">
+              <select class="mt-1 form-select block w-full pl-3 pr-10 py-2 text-base leading-6 border-gray-300 shadow-sm border rounded-lg focus:outline-none focus:shadow-outline-teal focus:border-teal-300 focus:rounded-lg sm:text-sm sm:leading-5">
                 <option value="">Selecione o estado</option>
               </select>
               <input type="hidden" name="state" />
@@ -61,9 +61,9 @@ export default function CreatePoint() {
 
         </fieldset>
         
-        <fieldset className=" bg-gray-100 overflow-hidden my-4 shadow border border-teal-900 rounded-lg p-4 py-12">
+        <fieldset className=" bg-gray-100 overflow-hidden my-4 shadow border border-teal-500 rounded-lg p-4 py-12">
           <legend>
-            <h2 className="font-bold text-2xl text-teal-900">Itens de Coleta</h2>
+            <h2 className="font-bold text-2xl text-teal-800">Itens de Coleta</h2>
           </legend>
           <div className="flex justify-center text-teal-700 text-center">
             <p classsName="">Selecione os items que serão coletados pela entidade</p>

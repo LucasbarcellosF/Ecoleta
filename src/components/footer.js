@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
 
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 shadow-sm border-t ">
       <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div class="flex justify-center md:order-2">
 

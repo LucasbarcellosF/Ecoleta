@@ -16,12 +16,12 @@ export default function Homepage() {
     <>
     <Navbar />
     </>
-    <div class="my-20 w-auto">
+    <div class="mb-2 sm:mb-16 sm:mx-20 w-auto m-auto">
       <main class="lg:relative">
         <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-            <h2 class="text-4xl font-bold text-teal-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
-              Sua plataforma de coleta seletiva inteligente
+            <h2 class="text-4xl leading-relaxed text-left font-bold text-teal-900 sm:text-5xl sm:leading-relaxed md:text-6xl lg:text-5xl xl:text-6xl">
+              Sua <span className="text-teal-600">plataforma</span> de coleta seletiva <span className="text-teal-600">inteligente</span>
             </h2>
             <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div class="rounded-md shadow">
@@ -39,7 +39,7 @@ export default function Homepage() {
         </div>
 
         <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <img class="absolute inset-0 w-full h-full object-auto sm:object-contain" src="/assets/home-background.svg" alt="Woman on her phone" />
+          <img class="sm:mt-6 absolute inset-0 w-full h-full object-auto sm:object-contain" src="/assets/home-background.svg" alt="Woman on her phone" />
         </div>
         
       </main>   

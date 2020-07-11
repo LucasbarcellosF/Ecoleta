@@ -14,7 +14,7 @@ export default function SearchResults() {
 
     <div class="my-12 mx-8 w-auto">
       <div className="my-6 flex justify-center">
-        <h4 className="text-5xl font-bold text-teal-900">Pontos de coleta encontrados</h4>
+        <h4 className="text-5xl font-bold text-teal-900">Pontos de coleta <span className="text-teal-600">encontrados</span></h4>
       </div>
 
       <div className="flex justify-center ">
