@@ -21,7 +21,7 @@ export default function CreatePoint() {
 
         <fieldset className="bg-gray-100 overflow-hidden my-4 shadow border border-teal-500 rounded-lg p-8">
           <legend>
-            <h2 className="font-bold text-2xl text-teal-800">Dados da entidade</h2>
+            <h2 className="font-bold text-2xl text-teal-800 ">Dados da entidade</h2>
           </legend>
 
           <div class="">
